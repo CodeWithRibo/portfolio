@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="/src/input.css">
+    <link rel="stylesheet" href="/typewritter.css">
+    <title>Portfolio</title>
+</head>
+<body class="font-poppins">
+    <div> <!-- container -->
+         <div class="">
+            <header class="flex justify-around item-center h-20 bg-plainBlack pt-5 fixed right-0 left-0 ">
+                    <div class="flex lg:block lg:items-center lg:justify-between"> <!--logo-->
+                        <div> 
+                            <h1 class="text-WhiteSmoke font-semibold text-xl tracking-widest">CodeWithCarl</h1>
+                        </div>
+                        <div class="px-4 cursor-pointer lg:hidden" id="burger">
+                            <img src="/image/hamburger.svg" alt="">
+                      </div>
+                    </div>
+                    <div class="hidden lg:block"> <!--nav-->
+                     <ul class="flex gap-10 text-xl tracking-wider ">
+                        <li><a href="#" class="text-WhiteSmoke font-semibold">Home</a></li>
+                        <li><a href="#" class="text-WhiteSmoke font-semibold">About Me</a></li>
+                        <li><a href="#skills" class="text-WhiteSmoke font-semibold">Skills</a></li>
+                        <li><a href="#projects" class="text-WhiteSmoke font-semibold">Projects</a></li>
+                        <li><a href="#" class="text-WhiteSmoke border border-LighGreen px-3 py-2 hover:bg-SemiLightGreen transition-all duration-500">Contact</a></li>
+                     </ul>   
+                    </div>
+            </header>
+         </div>
+         <div class="bg-plainBlack ">  
+            <section class="h-section-one-screen my-0 mx-auto max-w-screen-xl">
+                <div class="info flex flex-col gap-6 pt-60 pl-20 items-start sm:items-center md:items-center lg:items-start">
+                    <h2 class="lg:text-3xl md:text-2xl sm:text-xl">
+                        <span class="text-WhiteSmoke tracking-widest">Hello, I'm </span> 
+                        <span class="text-LighGreen font-semibold">Carl John</span>
+                    </h2>
+                    <h1 class="text-LighGreen mb-5 tracking-wide font-semibold text-4xl sm:text-5xl md:text-7xl lg:text-8xl">
+                        Web Developer
+                    </h1>
+                    <p class="text-WhiteSmoke tracking-widest text-left lg:text-start md:text-center sm:text-center lg:w-9/12 md:w-3/4 sm:w-3/4 lg:text-sm md:text-sm sm:text-[13px]">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, dignissimos? Aliquid laborum earum officiis vel doloremque illum voluptate culpa excepturi, molestiae consectetur ipsa necessitatibus illo velit iure placeat eaque ipsam quaerat delectus magni, unde nisi aperiam, maxime incidunt fuga? Laboriosam reprehenderit voluptatum temporibus, itaque non consequuntur delectus modi aliquam hic.
+                    </p>
+                    <div class="mt-5">
+                        <button class="text-WhiteSmoke border border-LighGreen px-3 py-2 hover:bg-SemiLightGreen transition-all duration-500">
+                            Download CV
+                        </button>
+                    </div>
+                </div> <!--info-->
+            </section>
+            
+        </section>
+        <!-- about  -->
+         <section class="h-section-two-screen mx-auto max-w-screen-xl  text-WhiteSmoke">
+                <div class="pl-20 pt-20">
+                    <div class="flex justify-center">
+                        <h1 class="text-4xl text-SemiLightGreen font-semibold uppercase">About Me</h1>
+                    </div>
+                    <div class="grid grid-cols-3 grid-rows-2  items-center pt-10 gap-x-10"> <!--about-me-container-->
+                        <div class="row-span-2 col-start-1 col-end-2 ">
+                            <img src="/image/with_mask_contrast.jpeg" alt="profile_pic" class="w-full rounded-md">
+                        </div>
+                        <div class="col-start-2  col-end-4 row-start-1 row-end-3 text-left"> <!-- brief self-introduction -->
+                            <div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque saepe quas expedita laborum. Aliquid tempora aut dolorum, fugit suscipit, eveniet id, officia modi consectetur voluptates odit cum temporibus enim quo quidem sit aspernatur iure at doloribus! Alias, repudiandae aspernatur tempore necessitatibus, rem laudantium quas aperiam iste distinctio, possimus aliquid magnam!</p>
+                                </div>
+                                 <div class="grid grid-cols-2 gap-x-3 mt-10">
+                                     <!--experiences & education  -->
+                                     <div class="border w-full  flex flex-col justify-center items-center tracking-wider cursor-pointer rounded-md hover:bg-SemiLightGreen  hover:border-LighGreen transition-all duration-500">
+                                        <img src="/image/achievement.svg" alt="" class="">
+                                        <h1 class="text-2xl pb-1.5">Experience</h1>
+                                        <p  class="text-lg">1+ Year</p>
+                                        <h3 class="text-lg font-semibold text-LighGreen hover:text-WhiteSmoke ">Web Developer</h3>
+                                     </div>
+                                 <!-- education -->
+                                 <div class="border w-full p-4 flex flex-col justify-center items-center tracking-wider cursor-pointer rounded-md hover:bg-SemiLightGreen  hover:border-LighGreen transition-all duration-500">
+                                    <img src="/image/achievement.svg" alt="" class="">
+                                    <h1 class="text-2xl pb-1.5">Education</h1>
+                                    <p  class="text-lg text-center ">Bachelor of Science in Information Technology</p>
+                                    <h3 class="text-lg font-semibold text-LighGreen hover:text-WhiteSmoke ">STI College Caloocan</h3>
+                                 </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+         </section>
+         <!-- Skills -->
+          <section class="h-section-three-screen mx-auto max-w-screen-xl  text-WhiteSmoke" id="skills">
+            <div class="pl-20 pt-20">   
+                              <div class="flex justify-center">
+                            <h1 class="text-4xl text-SemiLightGreen font-semibold uppercase">Skills</h1>
+                        </div>
+                              <div>
+                                <div class="">
+                                    <div>
+                                        <h1 class="text-3xl font-semibold my-11 uppercase tracking-wider">Frontend Developer</h1>  
+                                    </div>
+                                 
+                                     <div class="grid items-center gap-5 justify-center" style="grid-template-columns: 200px 1fr;">
+                                        <!-- HTML -->
+                                            <div class="">
+                                                <h2 class="text-2xl font-semibold tracking-wider">HTML</h2>
+                                         </div>
+                                            <div class="w-1/2 h-6 bg-gray-200 rounded-full bg-WhiteSmoke">
+                                            <div class="h-6 bg-SemiLightGreen rounded-full dark:bg-blue-500 text-center" style="width: 90%">90%</div>
+                                        </div>
+                                          <!-- CSS -->
+                                          <div>
+                                            <h2 class="text-2xl font-semibold tracking-wider">CSS</h2>
+                                     </div>
+                                        <div class="w-1/2 h-6 bg-gray-200 rounded-full bg-WhiteSmoke">
+                                        <div class="h-6 bg-SemiLightGreen rounded-full dark:bg-blue-500 text-center" style="width: 75%">70%</div>
+                                    </div>
+                                      <!-- JAVASCRIPT -->
+                                      <div>
+                                        <h2 class="text-2xl font-semibold tracking-wider">JAVASCRIPT</h2>
+                                 </div>
+                                    <div class="w-1/2 h-6 bg-gray-200 rounded-full bg-WhiteSmoke">
+                                    <div class="h-6 bg-SemiLightGreen rounded-full dark:bg-blue-500 text-center" style="width: 20%">20%</div>
+                                </div>
+                                        <!-- end progress bar -->
+                                </div>
+                                <div>
+                                    <div>
+                                        <h1 class="text-3xl font-semibold my-11 uppercase tracking-wider">FRAMEWORK</h1>  
+                                    </div>
+                                    <div class="grid items-center gap-5" style="grid-template-columns: 200px 1fr;">
+                                        <!-- HTML -->
+                                            <div>
+                                                <h2 class="text-2xl font-semibold tracking-wider">CSS TAILWIND</h2>
+                                         </div>
+                                            <div class="w-1/2 h-6 bg-gray-200 rounded-full bg-WhiteSmoke">
+                                            <div class="h-6 bg-SemiLightGreen rounded-full dark:bg-blue-500 text-center" style="width: 30%">30%</div>
+                                        </div>
+                                        </div>
+                                </div>
+                         </div>
+                 </div>
+     </section>
+     <!-- project -->
+      <section class="h-section-four-screen mx-auto max-w-screen-xl  text-WhiteSmoke" id="projects">
+        <div class="pl-1 pt-20">  
+            <div class="flex justify-center">
+                <h1 class="text-4xl text-SemiLightGreen font-semibold uppercase">Projects</h1>
+            </div>
+            <div>
+                <div class="mt-8 grid sm:grid-cols-1 md:grid-cols-2  gap-5  ">
+                <div class="card hover:shadow-lg  cursor-pointer border p-5">
+                    <img
+                      src="/image/eduquiz-image.svg" alt="eduuiz" class="w-full h-60  object-cover"/>
+                    <div class="m-4">
+                      <span class="font-bold uppercase text-xl">Educational Quiz System</span>
+                      <div class="mt-5">
+                        <button class=" mr-2 text-WhiteSmoke border border-LighGreen px-3 py-2 hover:bg-SemiLightGreen transition-all duration-500">Github</button>
+                        <button class="text-WhiteSmoke border border-LighGreen px-3 py-2 hover:bg-SemiLightGreen transition-all duration-500">Live Demo</button>
+                      </div>                     
+                    </div>
+                    </div>
+                    <!--  -->
+                    <div class="card hover:shadow-lg  cursor-pointer border p-5">
+                        <img
+                          src="/image/eduquiz-image.svg" alt="eduuiz" class="w-full h-60  object-cover"/>
+                        <div class="m-4">
+                          <span class="font-bold uppercase text-xl">Educational Quiz System</span>
+                          <div class="mt-5">
+                            <button class=" mr-2 text-WhiteSmoke border border-LighGreen px-3 py-2 hover:bg-SemiLightGreen transition-all duration-500">Github</button>
+                            <button class="text-WhiteSmoke border border-LighGreen px-3 py-2 hover:bg-SemiLightGreen transition-all duration-500">Live Demo</button>
+                          </div>                     
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- contact -->
+       <section class="h-section-five-screen mx-auto max-w-screen-xl  text-plainBlack">
+        <div class="flex justify-center">
+            <h1 class="text-4xl text-SemiLightGreen font-semibold uppercase">Contact me</h1>
+        </div>
+        <div>
+            <div class="flex justify-center items-center flex-col pt-10">
+                <form action="#" class="flex flex-col gap-5 p-5 w-full border mb-5 border-LighGreen rounded-md ">
+                    <input type="text" placeholder="First Name" class="p-3 ">
+                    <input type="text" placeholder="Last Name" class="p-3">
+                    <input type="email" placeholder="Email Address" class="p-3"> 
+                    <input type="text" placeholder="Subject" class="p-3">
+                    <textarea name="message" id="message" placeholder="Message" rows="7" cols="30" class="resize-none" ></textarea>
+                </form>
+                <div>
+                    <button class="text-WhiteSmoke border border-LighGreen px-3 py-2 hover:bg-SemiLightGreen transition-all duration-500">Send Message</button>
+                </div>
+            </div>
+        </div>
+       </section>
+    </div>
+    </div>
+    <!-- end container -->
+</body>
+</html>
